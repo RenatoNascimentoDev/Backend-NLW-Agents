@@ -5,7 +5,16 @@
   ],
   "javascript": {
     "formatter": {
-      "semicolons" : "asNeeded"
+      "semicolons" : "asNeeded",
+      "quoteStyle": "single"
+      }
+  },
+  "linter": {
+    "rules": {
+      "style": {
+        "useNamingConvention": "off",
+        "noMagicNumbers": "off" 
+      }
     }
   }
 }
