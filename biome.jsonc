@@ -1,19 +1,18 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "extends": [
-    "ultracite"
-  ],
+  "extends": ["ultracite"],
+ 
   "javascript": {
     "formatter": {
-      "semicolons" : "asNeeded",
+      "semicolons": "asNeeded",
       "quoteStyle": "single"
-      }
+    }
   },
   "linter": {
     "rules": {
       "style": {
         "useNamingConvention": "off",
-        "noMagicNumbers": "off" 
+        "noMagicNumbers": "off"
       }
     }
   }
