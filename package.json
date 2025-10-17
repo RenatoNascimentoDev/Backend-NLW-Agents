@@ -10,7 +10,6 @@
     "db:seed": "node --env-file .env --experimental-strip-types --no-warnings src/db/seed.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-
     "dev": "node --env-file .env --experimental-strip-types --no-warnings --watch src/server.ts"
   },
   "keywords": [],
@@ -27,6 +26,8 @@
   },
   "dependencies": {
     "@fastify/cors": "^11.1.0",
+    "@fastify/multipart": "^9.2.1",
+    "@google/genai": "^1.23.0",
     "drizzle-orm": "^0.44.5",
     "fastify": "^5.6.0",
     "fastify-type-provider-zod": "^6.0.0",

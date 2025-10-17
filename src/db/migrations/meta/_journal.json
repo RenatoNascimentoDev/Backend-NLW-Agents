@@ -15,6 +15,13 @@
       "when": 1759441435830,
       "tag": "0001_perfect_dragon_lord",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1760121520906,
+      "tag": "0002_fast_cyclops",
+      "breakpoints": true
     }
   ]
 }
